@@ -1,0 +1,287 @@
+/* start main rules */
+
+body {
+	background-color: #f4f4f4 !important;
+	
+
+}
+
+h1 {
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+
+
+/* end  main rules */
+
+
+
+
+/* Start Bootstrap Edits */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0; 
+}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+.navbar-brand {
+	font-size: 1em; 
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+	background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0; 
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+	color: #FFF;
+	background-color: #8e44ad;
+}
+
+.form-control {
+	position: relative;
+}
+
+/* End Bootstrap Edits */
+
+/* Start Header */
+
+.upper-bar {
+	padding: 5px;
+    background-color: #13a4b363;
+}
+
+.upper-bar .my-info {
+	margin-top: 13px;
+	margin-right: 13px;
+}
+
+.upper-bar img{
+	
+	width: 64px;
+    height: 64px;
+    padding: 0;
+    margin: 0 10px;
+
+}
+/* End   Header */
+
+
+/* Start Categories Page*/
+
+.item-box {
+	position: relative;
+}
+
+.item-box .price-tag {
+	backface-visibility: none;
+	margin: 5px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFF;
+}
+
+
+.item-box p {
+	font-size: 14px;
+}
+/* End   Categories Page*/
+
+
+
+
+/* Start   Login Page*/
+.login_page form {
+	max-width: 380px;
+	margin: auto;
+
+}
+.login_page form input{
+	margin-bottom: 10px;
+}
+
+.login_page .selected {
+	color: #af1010;
+}
+
+.login_page h1 {
+	color: #C0C0C0;
+}
+
+.login_page h1 span {
+	cursor: pointer;
+}
+
+.login_page .signup {
+	/*display: none;*/
+}
+
+.the-msg .error {
+	padding: 10px;
+    max-width: 380px;
+    margin: auto;
+    background-color: crimson;
+    text-align: left;
+    font-size: 15px;
+    border-left: 5px solid #563434;
+
+}
+
+.the-msg .success {
+	padding: 10px;
+    max-width: 380px;
+    margin: auto;
+    background-color: #35e694;
+    text-align: left;
+    font-size: 15px;
+    border-left: 5px solid #4854e0;
+
+}
+
+
+/* End   Login Page*/
+
+/* Start Profile Page*/
+.information ul {
+	padding: 0;
+	margin: 0;
+}
+
+.information ul li {
+	padding: 10px;
+}
+
+.information ul li:nth-child(odd) {
+	background-color: #EEE;
+}
+
+.information ul li span {
+	display: inline-block;
+	width: 120px;
+}
+
+
+
+ .add_date {
+	text-align: right;
+    margin-right: 5px;
+    color: #56652740;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.item-box .approve-status {
+	background-color: #e81818b5;
+	color: #fff;
+	position: absolute;
+	top: 40px;
+	font-weight: bold ;
+	padding: 3px;
+}
+
+.item-box .caption p {
+	height: 30px;
+	max-height: 30px;
+}
+
+.information .btn{
+	margin-top: 10px; 
+}
+
+/* End   Proflie Page*/
+
+
+
+/* Start   Items Page*/
+
+.item-info h2 {
+	margin: 0;
+}
+
+.item-info p {
+	padding: 10px ;
+}
+
+.item-info ul li {
+	padding: 10px ;
+}
+
+.item-info ul li:nth-child(odd) {
+	background-color: #e8e8e8;
+}
+
+.item-info ul li span {
+	display: inline-block;
+	width: 120px;
+}
+
+.add-comment form textarea {
+	display: block;
+    margin-bottom: 5px ;
+    width: 500px;
+    height: 100px;
+}
+
+.comment-box {
+	margin-bottom: 20px;
+}
+
+.comment-box img {
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+
+
+.comment-box .lead {
+	background-color: #e0e0e0;
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+/* End  Items Page*/
+
+/* Start Tags Page*/
+.tags-items a{
+	display: inline-block;
+	background-color: #e2e2e2;
+	padding: 2px 10px;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+/* End   Tags Page*/
+.custom-hr {
+	border-top: 1px solid #c9c9c9;
+}
+
